@@ -3,7 +3,7 @@ module.exports = {
     aliases: 'h',
     usage: "help [command]",
     description: "Displays a list of all current commands",
-    category: "Info",
+    category: "Información",
     code: `$djsEval[const Discord = require('discord.js');
     if ('$message' === '') {
         const cmds = client.cmd.default;
